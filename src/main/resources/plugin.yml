@@ -1,0 +1,24 @@
+name: Bingo
+version: '${project.version}'
+main: de.wt4b.bingo.Bingo
+api-version: 1.19
+authors: [ WT4B ]
+description: A 1.19 bingo plugin
+commands:
+  backpack:
+    description: Open a team backpack
+    aliases: [ bp ]
+  bingo:
+    description: The main command
+    aliases: [ b ]
+  position:
+    description: Save positions for your team
+    aliases: [ pos ]
+  reset:
+    description: Reset the world
+  settings:
+    description: Some settings
+  timer:
+    description: Manage the timer
+  top:
+    description: Teleport you to the highest block
